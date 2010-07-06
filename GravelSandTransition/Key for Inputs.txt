@@ -1,0 +1,28 @@
+
+<Single Value Constants>
+
+Q   Bankfull water discharge at flood [m^3/s]
+R   Submerged specific gravity of sediment
+L   Reach length [m]
+s   Initial position of gravel-sand transition [m]
+k   Initial water surface base level [m]
+x   Rate of base level rise [mm/year]
+S   Subsidence rate [mm/year]
+y   Year of start of sea level rise [year]
+Y   Year of stop of sea level rise [year]
+t   Time step [year]
+p   Number of prints desired
+i   Number of iterations per print
+
+        <sand>      <gravel>
+q        value       value      Feed rate [m^3/s]
+I        value       value      Flood intermittency
+D        value       value      Grain Size [mm]
+C        value       value      Dimensionless Chezy resistance coefficient
+B        value       value      Channel width [m]
+S        value       value      Initial slope
+d        value       value      Depositional or floodplane width [m]
+O        value       value      Channel sinuosity
+l        value       value      Fraction deposited per unit sediment in depositional zone
+L        value       value      Bed porosity
+M        value       value      Number of spatial steps

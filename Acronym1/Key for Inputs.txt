@@ -1,0 +1,12 @@
+Should follow the following format:
+
+R   Sediment Specific Gravity, R+1
+u   Shear Velocity of Flow [m/s]
+
+Diameter        % Passing
+Diameter        % Passing
+Diameter        % Passing
+            .
+            .
+            .
+(no more than 21 entries)

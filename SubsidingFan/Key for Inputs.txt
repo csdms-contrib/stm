@@ -1,0 +1,23 @@
+q   Upstream bed material sediment feed rate during floods [m^3/s]
+L   Basin Length [m]
+Q   Flood discharge [m^3/s]
+D   Grain size of bed [mm]
+V   Units of wash load deposited in the fan per unit bed material load
+T   Fan angle [degrees]
+l   Bed porosity
+I   Intermittency
+C   Chezy Resistance Coefficient
+O   Channel Sinuosity
+s   Subsidence rate [mm/yr] (must equal mean aggradation for perfect filling of hole; otherwise overfilled or underfilled)
+a   Engelund-Hansen coefficient [SAND]
+n   Engelund-Hansen exponent [SAND]
+S   Channel-forming Shields number [SAND]
+P   Parker coefficient [GRAVEL]
+N   Parker exponent [GRAVEL]
+c   Critical Shields number [GRAVEL]
+G   Channel-forming Shields number [GRAVEL]
+R   Submerged specific gravity of sediment
+M   Number of spatial intervals
+t   Time step [yr]
+i   Number of iterations desired
+p   Number of printouts desired

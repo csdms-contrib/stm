@@ -1,0 +1,10 @@
+F   Equilibrium Froude number (must be < 1)
+n   Exponent in load relation
+f   Backwater number
+e   Initial dimensionless mean bed elevation
+T   Ratio of normal to critical Shields stress
+S   Initial normalized slope
+M   Number of spatial intervals desired
+t   Dimensionless time step
+p   Number of prints desired
+i   Number of iterations desired

@@ -1,0 +1,28 @@
+Should follow the following format:
+
+R   Submerged Specific Gravity, R+1
+S   Bed Slope
+B   Channel Width [m]
+n   Roughness Factor
+
+Diameter        % Passing
+Diameter        % Passing
+Diameter        % Passing
+            .
+            .
+            .
+(No more than 21 entries)
+
+    0               0
+    
+Flow Rates      % time annually
+Flow Rates      % time annually
+Flow Rates      % time annually
+            .
+            .
+            .
+(No more than 16 entries)
+
+[diameter is in mm]
+[flow rates are in m^3/s]
+[Notice, the flow rates are separated from the diameters with a 0,0 row]

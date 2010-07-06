@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* SubsidingFan.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* SubsidingFan.1 */; };
+		935D0D261018A78A00810B2C /* Run.c in Sources */ = {isa = PBXBuildFile; fileRef = 935D0D251018A78A00810B2C /* Run.c */; };
+		935D0D2C1018A99400810B2C /* SaveDatatoMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 935D0D2B1018A99400810B2C /* SaveDatatoMatrix.c */; };
+		935D0D321018AB5000810B2C /* WriteOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 935D0D311018AB5000810B2C /* WriteOut.c */; };
+		935D0D361018AD1E00810B2C /* Finalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 935D0D351018AD1E00810B2C /* Finalize.c */; };
+		935D0D391018AD9C00810B2C /* GetData.c in Sources */ = {isa = PBXBuildFile; fileRef = 935D0D381018AD9C00810B2C /* GetData.c */; };
+		936A343A1017C79700420E44 /* ReadIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A34391017C79700420E44 /* ReadIn.c */; };
+		936A34411017CCF400420E44 /* SetInitialBed.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A34401017CCF400420E44 /* SetInitialBed.c */; };
+		936A34451017CD8100420E44 /* Initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A34441017CD8100420E44 /* Initialize.c */; };
+		936A345F1017D13700420E44 /* FindSlopeLoad.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A345E1017D13700420E44 /* FindSlopeLoad.c */; };
+		936A34631017D24800420E44 /* FindNewEta.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A34621017D24800420E44 /* FindNewEta.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* SubsidingFan.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* SubsidingFan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SubsidingFan; sourceTree = BUILT_PRODUCTS_DIR; };
+		935D0D241018A78A00810B2C /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		935D0D251018A78A00810B2C /* Run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Run.c; sourceTree = "<group>"; };
+		935D0D2A1018A99400810B2C /* SaveDatatoMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveDatatoMatrix.h; sourceTree = "<group>"; };
+		935D0D2B1018A99400810B2C /* SaveDatatoMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SaveDatatoMatrix.c; sourceTree = "<group>"; };
+		935D0D301018AB5000810B2C /* WriteOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOut.h; sourceTree = "<group>"; };
+		935D0D311018AB5000810B2C /* WriteOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WriteOut.c; sourceTree = "<group>"; };
+		935D0D341018AD1E00810B2C /* Finalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finalize.h; sourceTree = "<group>"; };
+		935D0D351018AD1E00810B2C /* Finalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Finalize.c; sourceTree = "<group>"; };
+		935D0D371018AD9C00810B2C /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		935D0D381018AD9C00810B2C /* GetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetData.c; sourceTree = "<group>"; };
+		935D0D401018AF5A00810B2C /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		935D0D691018B39700810B2C /* Key for Inputs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key for Inputs.txt"; sourceTree = "<group>"; };
+		936A34381017C79700420E44 /* ReadIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIn.h; sourceTree = "<group>"; };
+		936A34391017C79700420E44 /* ReadIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReadIn.c; sourceTree = "<group>"; };
+		936A343F1017CCF400420E44 /* SetInitialBed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetInitialBed.h; sourceTree = "<group>"; };
+		936A34401017CCF400420E44 /* SetInitialBed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetInitialBed.c; sourceTree = "<group>"; };
+		936A34431017CD8100420E44 /* Initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialize.h; sourceTree = "<group>"; };
+		936A34441017CD8100420E44 /* Initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Initialize.c; sourceTree = "<group>"; };
+		936A345D1017D13700420E44 /* FindSlopeLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSlopeLoad.h; sourceTree = "<group>"; };
+		936A345E1017D13700420E44 /* FindSlopeLoad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindSlopeLoad.c; sourceTree = "<group>"; };
+		936A34611017D24800420E44 /* FindNewEta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNewEta.h; sourceTree = "<group>"; };
+		936A34621017D24800420E44 /* FindNewEta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNewEta.c; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* SubsidingFan.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SubsidingFan.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SubsidingFan */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = SubsidingFan;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				935D0D401018AF5A00810B2C /* test.txt */,
+				935D0D371018AD9C00810B2C /* GetData.h */,
+				935D0D381018AD9C00810B2C /* GetData.c */,
+				935D0D691018B39700810B2C /* Key for Inputs.txt */,
+				935D0D341018AD1E00810B2C /* Finalize.h */,
+				935D0D351018AD1E00810B2C /* Finalize.c */,
+				935D0D301018AB5000810B2C /* WriteOut.h */,
+				935D0D311018AB5000810B2C /* WriteOut.c */,
+				935D0D2A1018A99400810B2C /* SaveDatatoMatrix.h */,
+				935D0D2B1018A99400810B2C /* SaveDatatoMatrix.c */,
+				935D0D241018A78A00810B2C /* Run.h */,
+				935D0D251018A78A00810B2C /* Run.c */,
+				936A34611017D24800420E44 /* FindNewEta.h */,
+				936A34621017D24800420E44 /* FindNewEta.c */,
+				936A345D1017D13700420E44 /* FindSlopeLoad.h */,
+				936A345E1017D13700420E44 /* FindSlopeLoad.c */,
+				936A343F1017CCF400420E44 /* SetInitialBed.h */,
+				936A34401017CCF400420E44 /* SetInitialBed.c */,
+				936A34431017CD8100420E44 /* Initialize.h */,
+				936A34441017CD8100420E44 /* Initialize.c */,
+				936A34381017C79700420E44 /* ReadIn.h */,
+				936A34391017C79700420E44 /* ReadIn.c */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* SubsidingFan */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* SubsidingFan.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* SubsidingFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "SubsidingFan" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubsidingFan;
+			productInstallPath = "$(HOME)/bin";
+			productName = SubsidingFan;
+			productReference = 8DD76FB20486AB0100D96B5E /* SubsidingFan */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "SubsidingFan" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SubsidingFan */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* SubsidingFan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				936A343A1017C79700420E44 /* ReadIn.c in Sources */,
+				936A34411017CCF400420E44 /* SetInitialBed.c in Sources */,
+				936A34451017CD8100420E44 /* Initialize.c in Sources */,
+				936A345F1017D13700420E44 /* FindSlopeLoad.c in Sources */,
+				936A34631017D24800420E44 /* FindNewEta.c in Sources */,
+				935D0D261018A78A00810B2C /* Run.c in Sources */,
+				935D0D2C1018A99400810B2C /* SaveDatatoMatrix.c in Sources */,
+				935D0D321018AB5000810B2C /* WriteOut.c in Sources */,
+				935D0D361018AD1E00810B2C /* Finalize.c in Sources */,
+				935D0D391018AD9C00810B2C /* GetData.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SubsidingFan;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SubsidingFan;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "SubsidingFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "SubsidingFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

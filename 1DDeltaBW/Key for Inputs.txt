@@ -1,0 +1,24 @@
+q   Flood Discharge [m^2/s]
+I   Intermittency
+Q   Upstream bed material sediment feed rate during floods [m^2/s]
+D   Grain size of bed material [mm]
+C   Chezy resistance coefficient
+n   Exponent in the load relation
+T   Critical Shields stress in load relation
+E   Elevation of top of the foreset [m]
+e   Initial elevation of bottom of the foreset [m]
+x   Water surface elevation of the lake [m]
+f   Initial fluvial bedslope
+b   Subaqueous basement slope
+s   Initial length of the fluvial zone [m]
+m   Maximum length of the fluvial zone [m]
+S   Slope of foreset face
+R   Submerged specific gravity of sediment
+L   Bed porosity
+k   Coefficient in Manning-Strickler relation (ks = n * D90)
+a   Coefficient in total bed material load relation
+r   Coefficient in Manning-Strickler relation (alpha,r)
+M   Number of fluvial nodes
+t   Time step [days]
+p   Number of printouts after initial one
+i   Iterations per each printout

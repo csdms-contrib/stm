@@ -1,0 +1,26 @@
+Q   Flood Discharge [m^3/s]
+q   Upstream bed material sediment feed rate during floods [m^3/s]
+V   Units of wash load deposited in the fan per unit bed material load deposited
+I   Intermittency
+D   Grain size of bed material [mm]
+R   Submerged specific gravity of sediment
+L   Reach length (downchannel distance) [m]
+B   Floodplain width [m]
+O   Channel sinuosity
+l   Bed porosity
+C   Chezy resistance coefficient
+S   Initial fluvial bed slope
+e   Rate of rise of downstream base level (+) [mm/year]
+M   Number of intervals
+p   Number of prints desired
+i   Number of iterations per print
+t   Time step
+y   Year base level change starts [yr]
+Y   Year base level change stops [yr]
+a   Coefficient in the Engelund-Hansen 1967 load relation [SANDS, D < 2]
+n   Exponent in the Engelund-Hansen 1967 load relation [SANDS, D < 2]
+T   Channel-forming Shields number for sand-bed streams [SANDS, D < 2]
+P   Coefficient in the Parker 1979 load relation [GRAVELS, D ≥ 2]
+N   Exponent in the Parker 1979 load relation [GRAVELS, D ≥ 2]
+c   Critical Shields number [GRAVELS, D ≥ 2]
+G   Channel-forming number for gravel-bed streams [GRAVELS, D ≥ 2]

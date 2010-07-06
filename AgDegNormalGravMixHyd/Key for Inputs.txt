@@ -1,0 +1,32 @@
+t   time step in flood days
+N   number of hydrograph entries [between 2 and 16 values]
+c   number of cycles per year
+e   bed elevation at downstream end [m]
+L   reach length [m]
+S   initial bed slope
+M   number of intervals
+i   number of iterations before a print is made
+p   number of prints desired
+k   factor by which Ds90 is multiplied for roughness height
+n   factor by which Ds90 is multiplied for active layer thickness
+r   coefficient in Manning-Strickler relation
+R   submerged specific gravity of gravel
+l   bed porosity, gravel
+u   upwinding coefficient for load spatial derivatives in Exner equation (>0.5 suggested)
+a   coefficient for material transferred to substrate as bed aggrades
+
+qw [m^2/s]      qbTf [m^2/s]    # of time steps
+qw [m^2/s]      qbTf [m^2/s]    # of time steps
+qw [m^2/s]      qbTf [m^2/s]    # of time steps
+                    .
+                    .
+                    .
+    [number should match the n given above]
+    
+Diameter [mm]   GSD Feed    GSD Surface     GSD Substrate
+Diameter [mm]   GSD Feed    GSD Surface     GSD Substrate
+Diameter [mm]   GSD Feed    GSD Surface     GSD Substrate
+                        .
+                        .
+                        .
+        [between 2 and 9 values should be entered]

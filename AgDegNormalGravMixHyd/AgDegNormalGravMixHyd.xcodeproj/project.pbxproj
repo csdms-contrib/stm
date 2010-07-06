@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* AgDegNormalGravMixHyd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* AgDegNormalGravMixHyd.1 */; };
+		932885DD0FFD36D900007E1D /* Initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 932885DC0FFD36D900007E1D /* Initialize.c */; };
+		9328860C0FFD403200007E1D /* Run.c in Sources */ = {isa = PBXBuildFile; fileRef = 9328860B0FFD403200007E1D /* Run.c */; };
+		9328860F0FFD41A600007E1D /* Finalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 9328860E0FFD41A600007E1D /* Finalize.c */; };
+		934A98450FF5039F00BC7214 /* ReadIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A98440FF5039F00BC7214 /* ReadIn.c */; };
+		934A991A0FF52EA200BC7214 /* PreliminaryCalculations.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A99190FF52EA200BC7214 /* PreliminaryCalculations.c */; };
+		934A994F0FF53A6100BC7214 /* CalculateMaxFlow.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A994E0FF53A6100BC7214 /* CalculateMaxFlow.c */; };
+		934A996B0FF53E3600BC7214 /* DischargesforPrint.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A996A0FF53E3600BC7214 /* DischargesforPrint.c */; };
+		934A99860FF5432F00BC7214 /* dscalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A99850FF5432F00BC7214 /* dscalculator.c */; };
+		934A99B40FF544B600BC7214 /* Fraction.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A99B30FF544B600BC7214 /* Fraction.c */; };
+		934A99C00FF5460700BC7214 /* Reorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A99BF0FF5460700BC7214 /* Reorder.c */; };
+		93BCD57B0FF9052F0001EB3A /* EndpointCheck.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD57A0FF9052F0001EB3A /* EndpointCheck.c */; };
+		93BCD5980FF9074A0001EB3A /* SetupInitialBedandTime.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5970FF9074A0001EB3A /* SetupInitialBedandTime.c */; };
+		93BCD59C0FF909DB0001EB3A /* GeometricMean.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD59B0FF909DB0001EB3A /* GeometricMean.c */; };
+		93BCD5A80FF913A40001EB3A /* Interpolation.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5A70FF913A40001EB3A /* Interpolation.c */; };
+		93BCD5B50FF917A50001EB3A /* SetStrainCurves.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5B40FF917A50001EB3A /* SetStrainCurves.c */; };
+		93BCD5BA0FF919FA0001EB3A /* SaveDatatoMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5B90FF919FA0001EB3A /* SaveDatatoMatrix.c */; };
+		93BCD5CC0FF921290001EB3A /* InitializeAverages.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5CB0FF921290001EB3A /* InitializeAverages.c */; };
+		93BCD5D40FF9247A0001EB3A /* FindDischargeandFeed.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5D30FF9247A0001EB3A /* FindDischargeandFeed.c */; };
+		93BCD5EB0FF9277F0001EB3A /* FindSlopesandShieldsStress.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5EA0FF9277F0001EB3A /* FindSlopesandShieldsStress.c */; };
+		93BCD5EF0FF929520001EB3A /* FindLoad.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5EE0FF929520001EB3A /* FindLoad.c */; };
+		93BCD5F50FF92CBF0001EB3A /* GeometricStandardDeviation.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5F40FF92CBF0001EB3A /* GeometricStandardDeviation.c */; };
+		93BCD5F80FF92CF70001EB3A /* FindOmega.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5F70FF92CF70001EB3A /* FindOmega.c */; };
+		93BCD5FE0FF92D9B0001EB3A /* GG.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD5FD0FF92D9B0001EB3A /* GG.c */; };
+		93BCD61F0FF9326F0001EB3A /* FindNewEta.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD61E0FF9326F0001EB3A /* FindNewEta.c */; };
+		93BCD62E0FF935A20001EB3A /* Renormalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD62D0FF935A20001EB3A /* Renormalize.c */; };
+		93BCD6310FF935FA0001EB3A /* Perfiner.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD6300FF935FA0001EB3A /* Perfiner.c */; };
+		93BCD63A0FF938100001EB3A /* UpdateAverages.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD6390FF938100001EB3A /* UpdateAverages.c */; };
+		93BCD6540FF942FF0001EB3A /* FindHighflowEndflow.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD6530FF942FF0001EB3A /* FindHighflowEndflow.c */; };
+		93BCD6C10FF9509F0001EB3A /* FinishAverages.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD6C00FF9509F0001EB3A /* FinishAverages.c */; };
+		93BCD6EB0FF95E030001EB3A /* PrintDatatoFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD6EA0FF95E030001EB3A /* PrintDatatoFile.c */; };
+		93BCD7730FF975FD0001EB3A /* WriteOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BCD7720FF975FD0001EB3A /* WriteOut.c */; };
+		93CC27480FFBF011001F3ED3 /* GetData.c in Sources */ = {isa = PBXBuildFile; fileRef = 93CC27470FFBF011001F3ED3 /* GetData.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* AgDegNormalGravMixHyd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* AgDegNormalGravMixHyd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AgDegNormalGravMixHyd; sourceTree = BUILT_PRODUCTS_DIR; };
+		932885DB0FFD36D900007E1D /* Initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialize.h; sourceTree = "<group>"; };
+		932885DC0FFD36D900007E1D /* Initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Initialize.c; sourceTree = "<group>"; };
+		9328860A0FFD403200007E1D /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		9328860B0FFD403200007E1D /* Run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Run.c; sourceTree = "<group>"; };
+		9328860D0FFD41A600007E1D /* Finalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finalize.h; sourceTree = "<group>"; };
+		9328860E0FFD41A600007E1D /* Finalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Finalize.c; sourceTree = "<group>"; };
+		934A98430FF5039F00BC7214 /* ReadIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIn.h; sourceTree = "<group>"; };
+		934A98440FF5039F00BC7214 /* ReadIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReadIn.c; sourceTree = "<group>"; };
+		934A98480FF5045000BC7214 /* Key for Inputs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key for Inputs.txt"; sourceTree = "<group>"; };
+		934A98520FF510A800BC7214 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		934A99180FF52EA200BC7214 /* PreliminaryCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreliminaryCalculations.h; sourceTree = "<group>"; };
+		934A99190FF52EA200BC7214 /* PreliminaryCalculations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PreliminaryCalculations.c; sourceTree = "<group>"; };
+		934A994D0FF53A6100BC7214 /* CalculateMaxFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateMaxFlow.h; sourceTree = "<group>"; };
+		934A994E0FF53A6100BC7214 /* CalculateMaxFlow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CalculateMaxFlow.c; sourceTree = "<group>"; };
+		934A99690FF53E3600BC7214 /* DischargesforPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DischargesforPrint.h; sourceTree = "<group>"; };
+		934A996A0FF53E3600BC7214 /* DischargesforPrint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DischargesforPrint.c; sourceTree = "<group>"; };
+		934A99840FF5432F00BC7214 /* dscalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dscalculator.h; sourceTree = "<group>"; };
+		934A99850FF5432F00BC7214 /* dscalculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dscalculator.c; sourceTree = "<group>"; };
+		934A99B20FF544B600BC7214 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		934A99B30FF544B600BC7214 /* Fraction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Fraction.c; sourceTree = "<group>"; };
+		934A99BE0FF5460700BC7214 /* Reorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reorder.h; sourceTree = "<group>"; };
+		934A99BF0FF5460700BC7214 /* Reorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Reorder.c; sourceTree = "<group>"; };
+		93BCD5790FF9052F0001EB3A /* EndpointCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndpointCheck.h; sourceTree = "<group>"; };
+		93BCD57A0FF9052F0001EB3A /* EndpointCheck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EndpointCheck.c; sourceTree = "<group>"; };
+		93BCD5960FF9074A0001EB3A /* SetupInitialBedandTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupInitialBedandTime.h; sourceTree = "<group>"; };
+		93BCD5970FF9074A0001EB3A /* SetupInitialBedandTime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetupInitialBedandTime.c; sourceTree = "<group>"; };
+		93BCD59A0FF909DB0001EB3A /* GeometricMean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometricMean.h; sourceTree = "<group>"; };
+		93BCD59B0FF909DB0001EB3A /* GeometricMean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GeometricMean.c; sourceTree = "<group>"; };
+		93BCD5A60FF913A40001EB3A /* Interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolation.h; sourceTree = "<group>"; };
+		93BCD5A70FF913A40001EB3A /* Interpolation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Interpolation.c; sourceTree = "<group>"; };
+		93BCD5B30FF917A50001EB3A /* SetStrainCurves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetStrainCurves.h; sourceTree = "<group>"; };
+		93BCD5B40FF917A50001EB3A /* SetStrainCurves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetStrainCurves.c; sourceTree = "<group>"; };
+		93BCD5B80FF919FA0001EB3A /* SaveDatatoMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveDatatoMatrix.h; sourceTree = "<group>"; };
+		93BCD5B90FF919FA0001EB3A /* SaveDatatoMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SaveDatatoMatrix.c; sourceTree = "<group>"; };
+		93BCD5CA0FF921290001EB3A /* InitializeAverages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeAverages.h; sourceTree = "<group>"; };
+		93BCD5CB0FF921290001EB3A /* InitializeAverages.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InitializeAverages.c; sourceTree = "<group>"; };
+		93BCD5D20FF9247A0001EB3A /* FindDischargeandFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindDischargeandFeed.h; sourceTree = "<group>"; };
+		93BCD5D30FF9247A0001EB3A /* FindDischargeandFeed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindDischargeandFeed.c; sourceTree = "<group>"; };
+		93BCD5E90FF9277F0001EB3A /* FindSlopesandShieldsStress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSlopesandShieldsStress.h; sourceTree = "<group>"; };
+		93BCD5EA0FF9277F0001EB3A /* FindSlopesandShieldsStress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindSlopesandShieldsStress.c; sourceTree = "<group>"; };
+		93BCD5ED0FF929520001EB3A /* FindLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLoad.h; sourceTree = "<group>"; };
+		93BCD5EE0FF929520001EB3A /* FindLoad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindLoad.c; sourceTree = "<group>"; };
+		93BCD5F30FF92CBF0001EB3A /* GeometricStandardDeviation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometricStandardDeviation.h; sourceTree = "<group>"; };
+		93BCD5F40FF92CBF0001EB3A /* GeometricStandardDeviation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GeometricStandardDeviation.c; sourceTree = "<group>"; };
+		93BCD5F60FF92CF70001EB3A /* FindOmega.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindOmega.h; sourceTree = "<group>"; };
+		93BCD5F70FF92CF70001EB3A /* FindOmega.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindOmega.c; sourceTree = "<group>"; };
+		93BCD5FC0FF92D9B0001EB3A /* GG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GG.h; sourceTree = "<group>"; };
+		93BCD5FD0FF92D9B0001EB3A /* GG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GG.c; sourceTree = "<group>"; };
+		93BCD61D0FF9326F0001EB3A /* FindNewEta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNewEta.h; sourceTree = "<group>"; };
+		93BCD61E0FF9326F0001EB3A /* FindNewEta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNewEta.c; sourceTree = "<group>"; };
+		93BCD62C0FF935A20001EB3A /* Renormalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renormalize.h; sourceTree = "<group>"; };
+		93BCD62D0FF935A20001EB3A /* Renormalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Renormalize.c; sourceTree = "<group>"; };
+		93BCD62F0FF935FA0001EB3A /* Perfiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perfiner.h; sourceTree = "<group>"; };
+		93BCD6300FF935FA0001EB3A /* Perfiner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Perfiner.c; sourceTree = "<group>"; };
+		93BCD6380FF938100001EB3A /* UpdateAverages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateAverages.h; sourceTree = "<group>"; };
+		93BCD6390FF938100001EB3A /* UpdateAverages.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UpdateAverages.c; sourceTree = "<group>"; };
+		93BCD6520FF942FF0001EB3A /* FindHighflowEndflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHighflowEndflow.h; sourceTree = "<group>"; };
+		93BCD6530FF942FF0001EB3A /* FindHighflowEndflow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindHighflowEndflow.c; sourceTree = "<group>"; };
+		93BCD6BF0FF9509F0001EB3A /* FinishAverages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishAverages.h; sourceTree = "<group>"; };
+		93BCD6C00FF9509F0001EB3A /* FinishAverages.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FinishAverages.c; sourceTree = "<group>"; };
+		93BCD6E90FF95E030001EB3A /* PrintDatatoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintDatatoFile.h; sourceTree = "<group>"; };
+		93BCD6EA0FF95E030001EB3A /* PrintDatatoFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintDatatoFile.c; sourceTree = "<group>"; };
+		93BCD7710FF975FD0001EB3A /* WriteOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOut.h; sourceTree = "<group>"; };
+		93BCD7720FF975FD0001EB3A /* WriteOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WriteOut.c; sourceTree = "<group>"; };
+		93CC27460FFBF011001F3ED3 /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		93CC27470FFBF011001F3ED3 /* GetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetData.c; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* AgDegNormalGravMixHyd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AgDegNormalGravMixHyd.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* AgDegNormalGravMixHyd */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = AgDegNormalGravMixHyd;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9328860D0FFD41A600007E1D /* Finalize.h */,
+				9328860E0FFD41A600007E1D /* Finalize.c */,
+				9328860A0FFD403200007E1D /* Run.h */,
+				9328860B0FFD403200007E1D /* Run.c */,
+				932885DB0FFD36D900007E1D /* Initialize.h */,
+				932885DC0FFD36D900007E1D /* Initialize.c */,
+				93CC27460FFBF011001F3ED3 /* GetData.h */,
+				93CC27470FFBF011001F3ED3 /* GetData.c */,
+				93BCD7710FF975FD0001EB3A /* WriteOut.h */,
+				93BCD7720FF975FD0001EB3A /* WriteOut.c */,
+				93BCD6520FF942FF0001EB3A /* FindHighflowEndflow.h */,
+				93BCD6530FF942FF0001EB3A /* FindHighflowEndflow.c */,
+				93BCD6380FF938100001EB3A /* UpdateAverages.h */,
+				93BCD6390FF938100001EB3A /* UpdateAverages.c */,
+				93BCD62F0FF935FA0001EB3A /* Perfiner.h */,
+				93BCD6300FF935FA0001EB3A /* Perfiner.c */,
+				93BCD62C0FF935A20001EB3A /* Renormalize.h */,
+				93BCD62D0FF935A20001EB3A /* Renormalize.c */,
+				93BCD61D0FF9326F0001EB3A /* FindNewEta.h */,
+				93BCD61E0FF9326F0001EB3A /* FindNewEta.c */,
+				93BCD5FC0FF92D9B0001EB3A /* GG.h */,
+				93BCD5FD0FF92D9B0001EB3A /* GG.c */,
+				93BCD5F60FF92CF70001EB3A /* FindOmega.h */,
+				93BCD5F70FF92CF70001EB3A /* FindOmega.c */,
+				93BCD5F30FF92CBF0001EB3A /* GeometricStandardDeviation.h */,
+				93BCD5F40FF92CBF0001EB3A /* GeometricStandardDeviation.c */,
+				93BCD5ED0FF929520001EB3A /* FindLoad.h */,
+				93BCD5EE0FF929520001EB3A /* FindLoad.c */,
+				93BCD5E90FF9277F0001EB3A /* FindSlopesandShieldsStress.h */,
+				93BCD5EA0FF9277F0001EB3A /* FindSlopesandShieldsStress.c */,
+				93BCD5D20FF9247A0001EB3A /* FindDischargeandFeed.h */,
+				93BCD5D30FF9247A0001EB3A /* FindDischargeandFeed.c */,
+				93BCD5CA0FF921290001EB3A /* InitializeAverages.h */,
+				93BCD5CB0FF921290001EB3A /* InitializeAverages.c */,
+				93BCD5B80FF919FA0001EB3A /* SaveDatatoMatrix.h */,
+				93BCD5B90FF919FA0001EB3A /* SaveDatatoMatrix.c */,
+				93BCD6E90FF95E030001EB3A /* PrintDatatoFile.h */,
+				93BCD6EA0FF95E030001EB3A /* PrintDatatoFile.c */,
+				93BCD5B30FF917A50001EB3A /* SetStrainCurves.h */,
+				93BCD5B40FF917A50001EB3A /* SetStrainCurves.c */,
+				93BCD5A60FF913A40001EB3A /* Interpolation.h */,
+				93BCD5A70FF913A40001EB3A /* Interpolation.c */,
+				93BCD59A0FF909DB0001EB3A /* GeometricMean.h */,
+				93BCD59B0FF909DB0001EB3A /* GeometricMean.c */,
+				93BCD5960FF9074A0001EB3A /* SetupInitialBedandTime.h */,
+				93BCD5970FF9074A0001EB3A /* SetupInitialBedandTime.c */,
+				93BCD5790FF9052F0001EB3A /* EndpointCheck.h */,
+				93BCD57A0FF9052F0001EB3A /* EndpointCheck.c */,
+				934A99BE0FF5460700BC7214 /* Reorder.h */,
+				934A99BF0FF5460700BC7214 /* Reorder.c */,
+				934A99B20FF544B600BC7214 /* Fraction.h */,
+				934A99B30FF544B600BC7214 /* Fraction.c */,
+				934A99840FF5432F00BC7214 /* dscalculator.h */,
+				934A99850FF5432F00BC7214 /* dscalculator.c */,
+				934A99690FF53E3600BC7214 /* DischargesforPrint.h */,
+				934A996A0FF53E3600BC7214 /* DischargesforPrint.c */,
+				934A994D0FF53A6100BC7214 /* CalculateMaxFlow.h */,
+				934A994E0FF53A6100BC7214 /* CalculateMaxFlow.c */,
+				93BCD6BF0FF9509F0001EB3A /* FinishAverages.h */,
+				93BCD6C00FF9509F0001EB3A /* FinishAverages.c */,
+				934A99180FF52EA200BC7214 /* PreliminaryCalculations.h */,
+				934A99190FF52EA200BC7214 /* PreliminaryCalculations.c */,
+				934A98520FF510A800BC7214 /* test.txt */,
+				934A98480FF5045000BC7214 /* Key for Inputs.txt */,
+				934A98430FF5039F00BC7214 /* ReadIn.h */,
+				934A98440FF5039F00BC7214 /* ReadIn.c */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* AgDegNormalGravMixHyd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* AgDegNormalGravMixHyd.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* AgDegNormalGravMixHyd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AgDegNormalGravMixHyd" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgDegNormalGravMixHyd;
+			productInstallPath = "$(HOME)/bin";
+			productName = AgDegNormalGravMixHyd;
+			productReference = 8DD76FB20486AB0100D96B5E /* AgDegNormalGravMixHyd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AgDegNormalGravMixHyd" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* AgDegNormalGravMixHyd */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* AgDegNormalGravMixHyd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				934A98450FF5039F00BC7214 /* ReadIn.c in Sources */,
+				934A991A0FF52EA200BC7214 /* PreliminaryCalculations.c in Sources */,
+				934A994F0FF53A6100BC7214 /* CalculateMaxFlow.c in Sources */,
+				934A996B0FF53E3600BC7214 /* DischargesforPrint.c in Sources */,
+				934A99860FF5432F00BC7214 /* dscalculator.c in Sources */,
+				934A99B40FF544B600BC7214 /* Fraction.c in Sources */,
+				934A99C00FF5460700BC7214 /* Reorder.c in Sources */,
+				93BCD57B0FF9052F0001EB3A /* EndpointCheck.c in Sources */,
+				93BCD5980FF9074A0001EB3A /* SetupInitialBedandTime.c in Sources */,
+				93BCD59C0FF909DB0001EB3A /* GeometricMean.c in Sources */,
+				93BCD5A80FF913A40001EB3A /* Interpolation.c in Sources */,
+				93BCD5B50FF917A50001EB3A /* SetStrainCurves.c in Sources */,
+				93BCD5BA0FF919FA0001EB3A /* SaveDatatoMatrix.c in Sources */,
+				93BCD5CC0FF921290001EB3A /* InitializeAverages.c in Sources */,
+				93BCD5D40FF9247A0001EB3A /* FindDischargeandFeed.c in Sources */,
+				93BCD5EB0FF9277F0001EB3A /* FindSlopesandShieldsStress.c in Sources */,
+				93BCD5EF0FF929520001EB3A /* FindLoad.c in Sources */,
+				93BCD5F50FF92CBF0001EB3A /* GeometricStandardDeviation.c in Sources */,
+				93BCD5F80FF92CF70001EB3A /* FindOmega.c in Sources */,
+				93BCD5FE0FF92D9B0001EB3A /* GG.c in Sources */,
+				93BCD61F0FF9326F0001EB3A /* FindNewEta.c in Sources */,
+				93BCD62E0FF935A20001EB3A /* Renormalize.c in Sources */,
+				93BCD6310FF935FA0001EB3A /* Perfiner.c in Sources */,
+				93BCD63A0FF938100001EB3A /* UpdateAverages.c in Sources */,
+				93BCD6540FF942FF0001EB3A /* FindHighflowEndflow.c in Sources */,
+				93BCD6C10FF9509F0001EB3A /* FinishAverages.c in Sources */,
+				93BCD6EB0FF95E030001EB3A /* PrintDatatoFile.c in Sources */,
+				93BCD7730FF975FD0001EB3A /* WriteOut.c in Sources */,
+				93CC27480FFBF011001F3ED3 /* GetData.c in Sources */,
+				932885DD0FFD36D900007E1D /* Initialize.c in Sources */,
+				9328860C0FFD403200007E1D /* Run.c in Sources */,
+				9328860F0FFD41A600007E1D /* Finalize.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AgDegNormalGravMixHyd;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AgDegNormalGravMixHyd;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AgDegNormalGravMixHyd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AgDegNormalGravMixHyd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

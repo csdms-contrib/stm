@@ -1,0 +1,8 @@
+R   Specific Gravity of Sediment
+D   Sediment Grain Size [mm]
+H   Flow Depth [m]
+k   Composite Roughness Height (including bedform effects)[mm]
+u   Shear Velocity [cm/s]
+v   Kinematic Viscosity of Water [cm^2/s]
+C   Shear Velocity due to Skin Friction [cm/s] OR Reference Volume Concentration
+    (user will be asked what they would like this constant to be)
