@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* AgDegNormGravMixPW.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* AgDegNormGravMixPW.1 */; };
+		930265600FF3D1A4007959D5 /* SaveDatatoMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 9302655F0FF3D1A4007959D5 /* SaveDatatoMatrix.c */; };
+		930265BA0FF3E526007959D5 /* WriteOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 930265B90FF3E526007959D5 /* WriteOut.c */; };
+		930748A00FF29FD6002FD8AD /* dscalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 9307489F0FF29FD6002FD8AD /* dscalculator.c */; };
+		932885A80FFD217E00007E1D /* Initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 932885A70FFD217E00007E1D /* Initialize.c */; };
+		932885AE0FFD268D00007E1D /* Run.c in Sources */ = {isa = PBXBuildFile; fileRef = 932885AD0FFD268D00007E1D /* Run.c */; };
+		932885C30FFD29E400007E1D /* Finalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 932885C20FFD29E400007E1D /* Finalize.c */; };
+		932C4EC10FEBD989004C4428 /* GeometricStandardDeviation.c in Sources */ = {isa = PBXBuildFile; fileRef = 932C4EC00FEBD989004C4428 /* GeometricStandardDeviation.c */; };
+		932C4EC40FEBDA6A004C4428 /* FindOmega.c in Sources */ = {isa = PBXBuildFile; fileRef = 932C4EC30FEBDA6A004C4428 /* FindOmega.c */; };
+		932C4ECD0FEBDEB7004C4428 /* GG.c in Sources */ = {isa = PBXBuildFile; fileRef = 932C4ECC0FEBDEB7004C4428 /* GG.c */; };
+		93477A1C0FF410A8002577FF /* GGwc.c in Sources */ = {isa = PBXBuildFile; fileRef = 93477A1B0FF410A8002577FF /* GGwc.c */; };
+		934A987F0FF5161D00BC7214 /* EndpointCheck.c in Sources */ = {isa = PBXBuildFile; fileRef = 934A987E0FF5161D00BC7214 /* EndpointCheck.c */; };
+		9399DDC00FEFC7DF00008D7A /* FindNewEta.c in Sources */ = {isa = PBXBuildFile; fileRef = 9399DDBF0FEFC7DF00008D7A /* FindNewEta.c */; };
+		939A7B4E0FEFD2BD002116C8 /* Fraction.c in Sources */ = {isa = PBXBuildFile; fileRef = 939A7B4D0FEFD2BD002116C8 /* Fraction.c */; };
+		939A7BCF0FEFE7DC002116C8 /* Renormalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 939A7BCE0FEFE7DC002116C8 /* Renormalize.c */; };
+		939A7BF10FEFEBB5002116C8 /* Perfiner.c in Sources */ = {isa = PBXBuildFile; fileRef = 939A7BF00FEFEBB5002116C8 /* Perfiner.c */; };
+		939A7BFA0FEFEDD1002116C8 /* Interpolation2.c in Sources */ = {isa = PBXBuildFile; fileRef = 939A7BF90FEFEDD1002116C8 /* Interpolation2.c */; };
+		939A7C120FEFF050002116C8 /* FracSand2.c in Sources */ = {isa = PBXBuildFile; fileRef = 939A7C110FEFF050002116C8 /* FracSand2.c */; };
+		93CC272C0FFBEA51001F3ED3 /* GetData.c in Sources */ = {isa = PBXBuildFile; fileRef = 93CC272B0FFBEA51001F3ED3 /* GetData.c */; };
+		93D6F5390FEA9DF100B4A245 /* ReadIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5380FEA9DF100B4A245 /* ReadIn.c */; };
+		93D6F5840FEAB6B600B4A245 /* SetStrainCurves.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5830FEAB6B600B4A245 /* SetStrainCurves.c */; };
+		93D6F58A0FEABEA100B4A245 /* GeometricMean.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5890FEABEA100B4A245 /* GeometricMean.c */; };
+		93D6F5910FEAC5E300B4A245 /* Reorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5900FEAC5E300B4A245 /* Reorder.c */; };
+		93D6F5A50FEAC73500B4A245 /* FracSand.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5A40FEAC73500B4A245 /* FracSand.c */; };
+		93D6F5C80FEACD7100B4A245 /* Interpolation.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5C70FEACD7100B4A245 /* Interpolation.c */; };
+		93D6F5E60FEACFE300B4A245 /* SetupInitialBedandTime.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5E50FEACFE300B4A245 /* SetupInitialBedandTime.c */; };
+		93D6F5FF0FEADAED00B4A245 /* PrintDatatoFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F5FE0FEADAED00B4A245 /* PrintDatatoFile.c */; };
+		93D6F6120FEAE2CC00B4A245 /* FindSlopesandShieldsStress.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F6110FEAE2CC00B4A245 /* FindSlopesandShieldsStress.c */; };
+		93D6F6220FEAE6D800B4A245 /* FindLoad.c in Sources */ = {isa = PBXBuildFile; fileRef = 93D6F6210FEAE6D800B4A245 /* FindLoad.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* AgDegNormGravMixPW.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* AgDegNormGravMixPW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AgDegNormGravMixPW; sourceTree = BUILT_PRODUCTS_DIR; };
+		9302655E0FF3D1A4007959D5 /* SaveDatatoMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveDatatoMatrix.h; sourceTree = "<group>"; };
+		9302655F0FF3D1A4007959D5 /* SaveDatatoMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SaveDatatoMatrix.c; sourceTree = "<group>"; };
+		930265B80FF3E526007959D5 /* WriteOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOut.h; sourceTree = "<group>"; };
+		930265B90FF3E526007959D5 /* WriteOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WriteOut.c; sourceTree = "<group>"; };
+		9307489E0FF29FD6002FD8AD /* dscalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dscalculator.h; sourceTree = "<group>"; };
+		9307489F0FF29FD6002FD8AD /* dscalculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dscalculator.c; sourceTree = "<group>"; };
+		932885A60FFD217E00007E1D /* Initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialize.h; sourceTree = "<group>"; };
+		932885A70FFD217E00007E1D /* Initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Initialize.c; sourceTree = "<group>"; };
+		932885AC0FFD268D00007E1D /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		932885AD0FFD268D00007E1D /* Run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Run.c; sourceTree = "<group>"; };
+		932885C10FFD29E400007E1D /* Finalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finalize.h; sourceTree = "<group>"; };
+		932885C20FFD29E400007E1D /* Finalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Finalize.c; sourceTree = "<group>"; };
+		932C4EBF0FEBD989004C4428 /* GeometricStandardDeviation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometricStandardDeviation.h; sourceTree = "<group>"; };
+		932C4EC00FEBD989004C4428 /* GeometricStandardDeviation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GeometricStandardDeviation.c; sourceTree = "<group>"; };
+		932C4EC20FEBDA6A004C4428 /* FindOmega.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindOmega.h; sourceTree = "<group>"; };
+		932C4EC30FEBDA6A004C4428 /* FindOmega.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindOmega.c; sourceTree = "<group>"; };
+		932C4ECB0FEBDEB7004C4428 /* GG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GG.h; sourceTree = "<group>"; };
+		932C4ECC0FEBDEB7004C4428 /* GG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GG.c; sourceTree = "<group>"; };
+		93477A1A0FF410A8002577FF /* GGwc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGwc.h; sourceTree = "<group>"; };
+		93477A1B0FF410A8002577FF /* GGwc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GGwc.c; sourceTree = "<group>"; };
+		934A987D0FF5161D00BC7214 /* EndpointCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndpointCheck.h; sourceTree = "<group>"; };
+		934A987E0FF5161D00BC7214 /* EndpointCheck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EndpointCheck.c; sourceTree = "<group>"; };
+		9399DDBE0FEFC7DF00008D7A /* FindNewEta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNewEta.h; sourceTree = "<group>"; };
+		9399DDBF0FEFC7DF00008D7A /* FindNewEta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNewEta.c; sourceTree = "<group>"; };
+		939A7B4C0FEFD2BD002116C8 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		939A7B4D0FEFD2BD002116C8 /* Fraction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Fraction.c; sourceTree = "<group>"; };
+		939A7BCD0FEFE7DC002116C8 /* Renormalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renormalize.h; sourceTree = "<group>"; };
+		939A7BCE0FEFE7DC002116C8 /* Renormalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Renormalize.c; sourceTree = "<group>"; };
+		939A7BEF0FEFEBB5002116C8 /* Perfiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perfiner.h; sourceTree = "<group>"; };
+		939A7BF00FEFEBB5002116C8 /* Perfiner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Perfiner.c; sourceTree = "<group>"; };
+		939A7BF80FEFEDD1002116C8 /* Interpolation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolation2.h; sourceTree = "<group>"; };
+		939A7BF90FEFEDD1002116C8 /* Interpolation2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Interpolation2.c; sourceTree = "<group>"; };
+		939A7C100FEFF050002116C8 /* FracSand2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FracSand2.h; sourceTree = "<group>"; };
+		939A7C110FEFF050002116C8 /* FracSand2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FracSand2.c; sourceTree = "<group>"; };
+		93CC272A0FFBEA51001F3ED3 /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		93CC272B0FFBEA51001F3ED3 /* GetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetData.c; sourceTree = "<group>"; };
+		93D6F5350FEA994800B4A245 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		93D6F5360FEA9A8E00B4A245 /* Key for Inputs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key for Inputs.txt"; sourceTree = "<group>"; };
+		93D6F5370FEA9DF100B4A245 /* ReadIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIn.h; sourceTree = "<group>"; };
+		93D6F5380FEA9DF100B4A245 /* ReadIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReadIn.c; sourceTree = "<group>"; };
+		93D6F5820FEAB6B600B4A245 /* SetStrainCurves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetStrainCurves.h; sourceTree = "<group>"; };
+		93D6F5830FEAB6B600B4A245 /* SetStrainCurves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetStrainCurves.c; sourceTree = "<group>"; };
+		93D6F5880FEABEA100B4A245 /* GeometricMean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometricMean.h; sourceTree = "<group>"; };
+		93D6F5890FEABEA100B4A245 /* GeometricMean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GeometricMean.c; sourceTree = "<group>"; };
+		93D6F58F0FEAC5E300B4A245 /* Reorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reorder.h; sourceTree = "<group>"; };
+		93D6F5900FEAC5E300B4A245 /* Reorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Reorder.c; sourceTree = "<group>"; };
+		93D6F5A30FEAC73500B4A245 /* FracSand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FracSand.h; sourceTree = "<group>"; };
+		93D6F5A40FEAC73500B4A245 /* FracSand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FracSand.c; sourceTree = "<group>"; };
+		93D6F5C60FEACD7100B4A245 /* Interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolation.h; sourceTree = "<group>"; };
+		93D6F5C70FEACD7100B4A245 /* Interpolation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Interpolation.c; sourceTree = "<group>"; };
+		93D6F5E40FEACFE300B4A245 /* SetupInitialBedandTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupInitialBedandTime.h; sourceTree = "<group>"; };
+		93D6F5E50FEACFE300B4A245 /* SetupInitialBedandTime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetupInitialBedandTime.c; sourceTree = "<group>"; };
+		93D6F5FD0FEADAED00B4A245 /* PrintDatatoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintDatatoFile.h; sourceTree = "<group>"; };
+		93D6F5FE0FEADAED00B4A245 /* PrintDatatoFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintDatatoFile.c; sourceTree = "<group>"; };
+		93D6F6100FEAE2CC00B4A245 /* FindSlopesandShieldsStress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSlopesandShieldsStress.h; sourceTree = "<group>"; };
+		93D6F6110FEAE2CC00B4A245 /* FindSlopesandShieldsStress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindSlopesandShieldsStress.c; sourceTree = "<group>"; };
+		93D6F6200FEAE6D800B4A245 /* FindLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLoad.h; sourceTree = "<group>"; };
+		93D6F6210FEAE6D800B4A245 /* FindLoad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindLoad.c; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* AgDegNormGravMixPW.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AgDegNormGravMixPW.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* AgDegNormGravMixPW */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = AgDegNormGravMixPW;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				932885C10FFD29E400007E1D /* Finalize.h */,
+				932885C20FFD29E400007E1D /* Finalize.c */,
+				932885AC0FFD268D00007E1D /* Run.h */,
+				932885AD0FFD268D00007E1D /* Run.c */,
+				932885A60FFD217E00007E1D /* Initialize.h */,
+				932885A70FFD217E00007E1D /* Initialize.c */,
+				93CC272A0FFBEA51001F3ED3 /* GetData.h */,
+				93CC272B0FFBEA51001F3ED3 /* GetData.c */,
+				934A987D0FF5161D00BC7214 /* EndpointCheck.h */,
+				934A987E0FF5161D00BC7214 /* EndpointCheck.c */,
+				93477A1A0FF410A8002577FF /* GGwc.h */,
+				93477A1B0FF410A8002577FF /* GGwc.c */,
+				930265B80FF3E526007959D5 /* WriteOut.h */,
+				930265B90FF3E526007959D5 /* WriteOut.c */,
+				9302655E0FF3D1A4007959D5 /* SaveDatatoMatrix.h */,
+				9302655F0FF3D1A4007959D5 /* SaveDatatoMatrix.c */,
+				9307489E0FF29FD6002FD8AD /* dscalculator.h */,
+				9307489F0FF29FD6002FD8AD /* dscalculator.c */,
+				939A7C100FEFF050002116C8 /* FracSand2.h */,
+				939A7C110FEFF050002116C8 /* FracSand2.c */,
+				939A7BF80FEFEDD1002116C8 /* Interpolation2.h */,
+				939A7BF90FEFEDD1002116C8 /* Interpolation2.c */,
+				939A7BEF0FEFEBB5002116C8 /* Perfiner.h */,
+				939A7BF00FEFEBB5002116C8 /* Perfiner.c */,
+				939A7BCD0FEFE7DC002116C8 /* Renormalize.h */,
+				939A7BCE0FEFE7DC002116C8 /* Renormalize.c */,
+				939A7B4C0FEFD2BD002116C8 /* Fraction.h */,
+				939A7B4D0FEFD2BD002116C8 /* Fraction.c */,
+				932C4ECB0FEBDEB7004C4428 /* GG.h */,
+				932C4ECC0FEBDEB7004C4428 /* GG.c */,
+				932C4EC20FEBDA6A004C4428 /* FindOmega.h */,
+				932C4EC30FEBDA6A004C4428 /* FindOmega.c */,
+				932C4EBF0FEBD989004C4428 /* GeometricStandardDeviation.h */,
+				932C4EC00FEBD989004C4428 /* GeometricStandardDeviation.c */,
+				93D6F6200FEAE6D800B4A245 /* FindLoad.h */,
+				93D6F6210FEAE6D800B4A245 /* FindLoad.c */,
+				93D6F6100FEAE2CC00B4A245 /* FindSlopesandShieldsStress.h */,
+				93D6F6110FEAE2CC00B4A245 /* FindSlopesandShieldsStress.c */,
+				93D6F5FD0FEADAED00B4A245 /* PrintDatatoFile.h */,
+				93D6F5FE0FEADAED00B4A245 /* PrintDatatoFile.c */,
+				93D6F5E40FEACFE300B4A245 /* SetupInitialBedandTime.h */,
+				9399DDBE0FEFC7DF00008D7A /* FindNewEta.h */,
+				9399DDBF0FEFC7DF00008D7A /* FindNewEta.c */,
+				93D6F5E50FEACFE300B4A245 /* SetupInitialBedandTime.c */,
+				93D6F5C60FEACD7100B4A245 /* Interpolation.h */,
+				93D6F5C70FEACD7100B4A245 /* Interpolation.c */,
+				93D6F5A30FEAC73500B4A245 /* FracSand.h */,
+				93D6F5A40FEAC73500B4A245 /* FracSand.c */,
+				93D6F58F0FEAC5E300B4A245 /* Reorder.h */,
+				93D6F5900FEAC5E300B4A245 /* Reorder.c */,
+				93D6F5880FEABEA100B4A245 /* GeometricMean.h */,
+				93D6F5890FEABEA100B4A245 /* GeometricMean.c */,
+				93D6F5820FEAB6B600B4A245 /* SetStrainCurves.h */,
+				93D6F5830FEAB6B600B4A245 /* SetStrainCurves.c */,
+				93D6F5370FEA9DF100B4A245 /* ReadIn.h */,
+				93D6F5380FEA9DF100B4A245 /* ReadIn.c */,
+				93D6F5360FEA9A8E00B4A245 /* Key for Inputs.txt */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+				93D6F5350FEA994800B4A245 /* test.txt */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* AgDegNormGravMixPW */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* AgDegNormGravMixPW.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* AgDegNormGravMixPW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AgDegNormGravMixPW" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgDegNormGravMixPW;
+			productInstallPath = "$(HOME)/bin";
+			productName = AgDegNormGravMixPW;
+			productReference = 8DD76FB20486AB0100D96B5E /* AgDegNormGravMixPW */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AgDegNormGravMixPW" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* AgDegNormGravMixPW */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* AgDegNormGravMixPW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				93D6F5390FEA9DF100B4A245 /* ReadIn.c in Sources */,
+				93D6F5840FEAB6B600B4A245 /* SetStrainCurves.c in Sources */,
+				93D6F58A0FEABEA100B4A245 /* GeometricMean.c in Sources */,
+				93D6F5910FEAC5E300B4A245 /* Reorder.c in Sources */,
+				93D6F5A50FEAC73500B4A245 /* FracSand.c in Sources */,
+				93D6F5C80FEACD7100B4A245 /* Interpolation.c in Sources */,
+				93D6F5E60FEACFE300B4A245 /* SetupInitialBedandTime.c in Sources */,
+				93D6F5FF0FEADAED00B4A245 /* PrintDatatoFile.c in Sources */,
+				93D6F6120FEAE2CC00B4A245 /* FindSlopesandShieldsStress.c in Sources */,
+				93D6F6220FEAE6D800B4A245 /* FindLoad.c in Sources */,
+				932C4EC10FEBD989004C4428 /* GeometricStandardDeviation.c in Sources */,
+				932C4EC40FEBDA6A004C4428 /* FindOmega.c in Sources */,
+				932C4ECD0FEBDEB7004C4428 /* GG.c in Sources */,
+				9399DDC00FEFC7DF00008D7A /* FindNewEta.c in Sources */,
+				939A7B4E0FEFD2BD002116C8 /* Fraction.c in Sources */,
+				939A7BCF0FEFE7DC002116C8 /* Renormalize.c in Sources */,
+				939A7BF10FEFEBB5002116C8 /* Perfiner.c in Sources */,
+				939A7BFA0FEFEDD1002116C8 /* Interpolation2.c in Sources */,
+				939A7C120FEFF050002116C8 /* FracSand2.c in Sources */,
+				930748A00FF29FD6002FD8AD /* dscalculator.c in Sources */,
+				930265600FF3D1A4007959D5 /* SaveDatatoMatrix.c in Sources */,
+				930265BA0FF3E526007959D5 /* WriteOut.c in Sources */,
+				93477A1C0FF410A8002577FF /* GGwc.c in Sources */,
+				934A987F0FF5161D00BC7214 /* EndpointCheck.c in Sources */,
+				93CC272C0FFBEA51001F3ED3 /* GetData.c in Sources */,
+				932885A80FFD217E00007E1D /* Initialize.c in Sources */,
+				932885AE0FFD268D00007E1D /* Run.c in Sources */,
+				932885C30FFD29E400007E1D /* Finalize.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AgDegNormGravMixPW;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AgDegNormGravMixPW;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AgDegNormGravMixPW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AgDegNormGravMixPW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

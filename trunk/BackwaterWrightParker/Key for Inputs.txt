@@ -1,0 +1,9 @@
+Q   flow discharge [m^3/s]
+B   channel width [m]
+d   median grain size (D50) [mm]
+D   grain size such that 90% passes (D90) [mm]
+R   submerges specific gravity of sediment
+S   bed slope
+k   downstream water surface elevation [m]
+L   reach length [m]
+M   number of spatial nodes (max of 99)

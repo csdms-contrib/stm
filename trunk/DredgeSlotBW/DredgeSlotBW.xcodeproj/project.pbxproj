@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* DredgeSlotBW.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* DredgeSlotBW.1 */; };
+		9338B94D1020A7280044DACC /* Initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B94C1020A7280044DACC /* Initialize.c */; };
+		9338B9571020AD260044DACC /* ComputeBedloadTransportRate.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B9561020AD260044DACC /* ComputeBedloadTransportRate.c */; };
+		9338B95C1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B95B1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.c */; };
+		9338B9611020B14D0044DACC /* FindNewEta.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B9601020B14D0044DACC /* FindNewEta.c */; };
+		9338B9661020B43D0044DACC /* Run.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B9651020B43D0044DACC /* Run.c */; };
+		9338B9711020B8DA0044DACC /* SaveDatatoMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B9701020B8DA0044DACC /* SaveDatatoMatrix.c */; };
+		9338B97E1020E6100044DACC /* WriteOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 9338B97D1020E6100044DACC /* WriteOut.c */; };
+		9393BFF0101F8CAC0044E46B /* FindQsint.c in Sources */ = {isa = PBXBuildFile; fileRef = 9393BFEF101F8CAC0044E46B /* FindQsint.c */; };
+		9393C02C101F918E0044E46B /* SetInitialBed.c in Sources */ = {isa = PBXBuildFile; fileRef = 9393C02B101F918E0044E46B /* SetInitialBed.c */; };
+		9393C033101F96EA0044E46B /* FluvialBackwater.c in Sources */ = {isa = PBXBuildFile; fileRef = 9393C032101F96EA0044E46B /* FluvialBackwater.c */; };
+		9393C038101F985D0044E46B /* ComputeHsandSf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9393C037101F985D0044E46B /* ComputeHsandSf.c */; };
+		93A48864101E4D6100A98FBC /* ReadIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A48863101E4D6100A98FBC /* ReadIn.c */; };
+		93A48883101E502200A98FBC /* Rf.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A48882101E502200A98FBC /* Rf.c */; };
+		93A4889A101E528300A98FBC /* ComputeNormalFlow.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A48899101E528300A98FBC /* ComputeNormalFlow.c */; };
+		93A4889E101E531400A98FBC /* FindNormalDepth.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A4889D101E531400A98FBC /* FindNormalDepth.c */; };
+		93A488A1101E580F00A98FBC /* Findtausmin.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A488A0101E580F00A98FBC /* Findtausmin.c */; };
+		93A488A4101E5BC000A98FBC /* fi.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A488A3101E5BC000A98FBC /* fi.c */; };
+		93A488D5101E61DC00A98FBC /* qbstarAM.c in Sources */ = {isa = PBXBuildFile; fileRef = 93A488D4101E61DC00A98FBC /* qbstarAM.c */; };
+		93E22F7F102741B9007C2285 /* GetData.c in Sources */ = {isa = PBXBuildFile; fileRef = 93E22F7E102741B9007C2285 /* GetData.c */; };
+		93E22F8410274391007C2285 /* Finalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 93E22F8310274391007C2285 /* Finalize.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* DredgeSlotBW.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* DredgeSlotBW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DredgeSlotBW; sourceTree = BUILT_PRODUCTS_DIR; };
+		9338B94B1020A7280044DACC /* Initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialize.h; sourceTree = "<group>"; };
+		9338B94C1020A7280044DACC /* Initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Initialize.c; sourceTree = "<group>"; };
+		9338B9551020AD260044DACC /* ComputeBedloadTransportRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeBedloadTransportRate.h; sourceTree = "<group>"; };
+		9338B9561020AD260044DACC /* ComputeBedloadTransportRate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComputeBedloadTransportRate.c; sourceTree = "<group>"; };
+		9338B95A1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeSuspendedSedimentTransportRate.h; sourceTree = "<group>"; };
+		9338B95B1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComputeSuspendedSedimentTransportRate.c; sourceTree = "<group>"; };
+		9338B95F1020B14D0044DACC /* FindNewEta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNewEta.h; sourceTree = "<group>"; };
+		9338B9601020B14D0044DACC /* FindNewEta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNewEta.c; sourceTree = "<group>"; };
+		9338B9641020B43D0044DACC /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		9338B9651020B43D0044DACC /* Run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Run.c; sourceTree = "<group>"; };
+		9338B96F1020B8DA0044DACC /* SaveDatatoMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveDatatoMatrix.h; sourceTree = "<group>"; };
+		9338B9701020B8DA0044DACC /* SaveDatatoMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SaveDatatoMatrix.c; sourceTree = "<group>"; };
+		9338B9761020BBA70044DACC /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		9338B97C1020E6100044DACC /* WriteOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOut.h; sourceTree = "<group>"; };
+		9338B97D1020E6100044DACC /* WriteOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WriteOut.c; sourceTree = "<group>"; };
+		9340FF5410274868003A1E9E /* Key for Inputs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key for Inputs.txt"; sourceTree = "<group>"; };
+		9393BFEE101F8CAC0044E46B /* FindQsint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindQsint.h; sourceTree = "<group>"; };
+		9393BFEF101F8CAC0044E46B /* FindQsint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindQsint.c; sourceTree = "<group>"; };
+		9393C02A101F918E0044E46B /* SetInitialBed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetInitialBed.h; sourceTree = "<group>"; };
+		9393C02B101F918E0044E46B /* SetInitialBed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetInitialBed.c; sourceTree = "<group>"; };
+		9393C031101F96EA0044E46B /* FluvialBackwater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluvialBackwater.h; sourceTree = "<group>"; };
+		9393C032101F96EA0044E46B /* FluvialBackwater.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FluvialBackwater.c; sourceTree = "<group>"; };
+		9393C036101F985D0044E46B /* ComputeHsandSf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeHsandSf.h; sourceTree = "<group>"; };
+		9393C037101F985D0044E46B /* ComputeHsandSf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComputeHsandSf.c; sourceTree = "<group>"; };
+		93A48862101E4D6100A98FBC /* ReadIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIn.h; sourceTree = "<group>"; };
+		93A48863101E4D6100A98FBC /* ReadIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReadIn.c; sourceTree = "<group>"; };
+		93A48881101E502200A98FBC /* Rf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rf.h; sourceTree = "<group>"; };
+		93A48882101E502200A98FBC /* Rf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Rf.c; sourceTree = "<group>"; };
+		93A48898101E528300A98FBC /* ComputeNormalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeNormalFlow.h; sourceTree = "<group>"; };
+		93A48899101E528300A98FBC /* ComputeNormalFlow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComputeNormalFlow.c; sourceTree = "<group>"; };
+		93A4889C101E531400A98FBC /* FindNormalDepth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNormalDepth.h; sourceTree = "<group>"; };
+		93A4889D101E531400A98FBC /* FindNormalDepth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNormalDepth.c; sourceTree = "<group>"; };
+		93A4889F101E580F00A98FBC /* Findtausmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Findtausmin.h; sourceTree = "<group>"; };
+		93A488A0101E580F00A98FBC /* Findtausmin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Findtausmin.c; sourceTree = "<group>"; };
+		93A488A2101E5BC000A98FBC /* fi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fi.h; sourceTree = "<group>"; };
+		93A488A3101E5BC000A98FBC /* fi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fi.c; sourceTree = "<group>"; };
+		93A488D3101E61DC00A98FBC /* qbstarAM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qbstarAM.h; sourceTree = "<group>"; };
+		93A488D4101E61DC00A98FBC /* qbstarAM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qbstarAM.c; sourceTree = "<group>"; };
+		93E22F7D102741B9007C2285 /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		93E22F7E102741B9007C2285 /* GetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetData.c; sourceTree = "<group>"; };
+		93E22F8210274391007C2285 /* Finalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finalize.h; sourceTree = "<group>"; };
+		93E22F8310274391007C2285 /* Finalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Finalize.c; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* DredgeSlotBW.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DredgeSlotBW.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* DredgeSlotBW */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = DredgeSlotBW;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				93E22F8210274391007C2285 /* Finalize.h */,
+				93E22F8310274391007C2285 /* Finalize.c */,
+				93E22F7D102741B9007C2285 /* GetData.h */,
+				93E22F7E102741B9007C2285 /* GetData.c */,
+				9338B97C1020E6100044DACC /* WriteOut.h */,
+				9338B97D1020E6100044DACC /* WriteOut.c */,
+				9338B96F1020B8DA0044DACC /* SaveDatatoMatrix.h */,
+				9338B9701020B8DA0044DACC /* SaveDatatoMatrix.c */,
+				9338B9641020B43D0044DACC /* Run.h */,
+				9338B9651020B43D0044DACC /* Run.c */,
+				9338B95A1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.h */,
+				9338B95B1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.c */,
+				9338B9551020AD260044DACC /* ComputeBedloadTransportRate.h */,
+				9338B9561020AD260044DACC /* ComputeBedloadTransportRate.c */,
+				9393C036101F985D0044E46B /* ComputeHsandSf.h */,
+				9393C037101F985D0044E46B /* ComputeHsandSf.c */,
+				9338B94B1020A7280044DACC /* Initialize.h */,
+				9338B94C1020A7280044DACC /* Initialize.c */,
+				9393C02A101F918E0044E46B /* SetInitialBed.h */,
+				9393C02B101F918E0044E46B /* SetInitialBed.c */,
+				9393BFEE101F8CAC0044E46B /* FindQsint.h */,
+				9393BFEF101F8CAC0044E46B /* FindQsint.c */,
+				9338B95F1020B14D0044DACC /* FindNewEta.h */,
+				9338B9601020B14D0044DACC /* FindNewEta.c */,
+				93A488D3101E61DC00A98FBC /* qbstarAM.h */,
+				93A488D4101E61DC00A98FBC /* qbstarAM.c */,
+				93A488A2101E5BC000A98FBC /* fi.h */,
+				93A488A3101E5BC000A98FBC /* fi.c */,
+				93A4889F101E580F00A98FBC /* Findtausmin.h */,
+				93A488A0101E580F00A98FBC /* Findtausmin.c */,
+				93A4889C101E531400A98FBC /* FindNormalDepth.h */,
+				93A4889D101E531400A98FBC /* FindNormalDepth.c */,
+				93A48898101E528300A98FBC /* ComputeNormalFlow.h */,
+				93A48899101E528300A98FBC /* ComputeNormalFlow.c */,
+				9393C031101F96EA0044E46B /* FluvialBackwater.h */,
+				9393C032101F96EA0044E46B /* FluvialBackwater.c */,
+				9338B9761020BBA70044DACC /* test.txt */,
+				93A48881101E502200A98FBC /* Rf.h */,
+				93A48882101E502200A98FBC /* Rf.c */,
+				93A48862101E4D6100A98FBC /* ReadIn.h */,
+				93A48863101E4D6100A98FBC /* ReadIn.c */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+				9340FF5410274868003A1E9E /* Key for Inputs.txt */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* DredgeSlotBW */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* DredgeSlotBW.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* DredgeSlotBW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "DredgeSlotBW" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DredgeSlotBW;
+			productInstallPath = "$(HOME)/bin";
+			productName = DredgeSlotBW;
+			productReference = 8DD76FB20486AB0100D96B5E /* DredgeSlotBW */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "DredgeSlotBW" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* DredgeSlotBW */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* DredgeSlotBW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				93A48864101E4D6100A98FBC /* ReadIn.c in Sources */,
+				93A48883101E502200A98FBC /* Rf.c in Sources */,
+				93A4889A101E528300A98FBC /* ComputeNormalFlow.c in Sources */,
+				93A4889E101E531400A98FBC /* FindNormalDepth.c in Sources */,
+				93A488A1101E580F00A98FBC /* Findtausmin.c in Sources */,
+				93A488A4101E5BC000A98FBC /* fi.c in Sources */,
+				93A488D5101E61DC00A98FBC /* qbstarAM.c in Sources */,
+				9393BFF0101F8CAC0044E46B /* FindQsint.c in Sources */,
+				9393C02C101F918E0044E46B /* SetInitialBed.c in Sources */,
+				9393C033101F96EA0044E46B /* FluvialBackwater.c in Sources */,
+				9393C038101F985D0044E46B /* ComputeHsandSf.c in Sources */,
+				9338B94D1020A7280044DACC /* Initialize.c in Sources */,
+				9338B9571020AD260044DACC /* ComputeBedloadTransportRate.c in Sources */,
+				9338B95C1020AE4C0044DACC /* ComputeSuspendedSedimentTransportRate.c in Sources */,
+				9338B9611020B14D0044DACC /* FindNewEta.c in Sources */,
+				9338B9661020B43D0044DACC /* Run.c in Sources */,
+				9338B9711020B8DA0044DACC /* SaveDatatoMatrix.c in Sources */,
+				9338B97E1020E6100044DACC /* WriteOut.c in Sources */,
+				93E22F7F102741B9007C2285 /* GetData.c in Sources */,
+				93E22F8410274391007C2285 /* Finalize.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = DredgeSlotBW;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = DredgeSlotBW;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "DredgeSlotBW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "DredgeSlotBW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

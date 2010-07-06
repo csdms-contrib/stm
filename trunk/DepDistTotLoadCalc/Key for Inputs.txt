@@ -1,0 +1,10 @@
+S   bed slope
+R   submerges specific gravity of sediment
+d   median sediment size (D50) [mm]
+D   90% passing sediment size (D90) [mm]
+n   factor such that ks = n*D90
+H   low end value of Hs [m]
+s   step size for Hs [m]
+N   number of steps to make for Hs
+a   factor for stratification (if not included, it will be assumed to equal 1)
+v   kinematic viscosity of water [m^2/s]

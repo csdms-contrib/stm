@@ -1,0 +1,11 @@
+S = Slope [m/m]
+C = Chezy coefficient
+q = water discharge/width [m^2/s]
+R = hydraulic radius [m]
+M = Mean diameter [mm]
+D = D90 of the surface [mm]
+n = roughness coefficient
+a = alpha(r)
+x = starting point [m]
+d = step size [m]
+H = initial depth [m]

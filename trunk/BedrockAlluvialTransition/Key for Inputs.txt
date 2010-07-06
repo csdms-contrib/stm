@@ -1,0 +1,16 @@
+q   Water discharge per unit width during floods
+I   Intermittency
+Q   Volume sediment feed rate per width at upstream end during floods
+D   Grain size of alluvium
+C   Chezy resistance coefficient
+b   Slope of bedrock basement
+S   Initial slope of alluvial region
+R   Submerged specific gravity of sediment
+L   Bed porosity
+k   Coefficient in Manning Strickler relation (ks = na*D90)
+a   Coefficient in Manning-Strickler relation (alpha,r)
+d   Position of the downstream end of the reach [m]
+M   Number of spatial steps
+t   Time step
+i   Number of iterations before printing
+p   Number of prints desired
