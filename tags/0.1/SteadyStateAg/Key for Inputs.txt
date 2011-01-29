@@ -1,0 +1,17 @@
+G   Mean annual bed material sediment feed rate [Mt/yr]
+L   Reach length (downchannel distance) [km]
+x   Rate of sea level rise [mm/yr]
+Q   Bankfull water discharge [m^3/s]
+B   Floodplain width [km]
+D   Grain size [mm]
+V   Fraction wash load deposited per unit bed material deposited
+T   Channel-forming Shields number
+a   Coefficient in Engelund-Hansen bed material load relation
+l   Bed porosity
+I   Flood intermittence
+C   Chezy resistance coefficient
+O   Channel sinuosity
+R   Submerged specific gravity of sediment
+X   Initial water surface elevation
+t   Time interval for plotting [yr]
+p   Number of prints desired

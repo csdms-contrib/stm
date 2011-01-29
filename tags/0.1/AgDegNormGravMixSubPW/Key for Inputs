@@ -1,0 +1,33 @@
+q   water discharge/width [m^2/s]
+T   gravel input [m^2/s]
+I   intermittency
+e   base level [m]
+S   initial bed slope
+L   reach length [m]
+t   time step [days]
+M   no. of intervals (100 or less)
+p   no. of prints
+i   no. of iterations per print
+k   factor by which Ds90 is multiplied for roughness height
+n   factor by which Ds90 is multiplied for active layer thickness
+r   coefficient in Manning-Strickler relation
+R   submerged specific gravity of gravel
+l   bed porosity, gravel
+u   upwinding coefficient for load spatial derivatives in Exner equation (>0.5 suggested)
+a   coefficient for material transferred to substrate as bed aggrades
+O   channel sinuosity
+s   subsidence rate [mm/year]
+B   ratio of depositional width to channel width
+V   ratio of wash load deposited per unit bed material load deposited
+C   coefficient, Cf, in the Chezy formulation
+
+
+Diameter [mm]   GSD Feed        GSD Surface     GSD Substrate
+Diameter [mm]   GSD Feed        GSD Surface     GSD Substrate
+Diameter [mm]   GSD Feed        GSD Surface     GSD Substrate
+                            .
+                            .
+                            .
+Diameter [mm]   GSD Feed        GSD Surface     GSD Substrate
+
+    [exactly 12 different diameters should be entered]

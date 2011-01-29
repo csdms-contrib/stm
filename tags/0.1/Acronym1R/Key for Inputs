@@ -1,0 +1,15 @@
+Should follow the following format:
+
+R   Sediment Specific Gravity, R+1
+Q   Water Discharge [m^3/s]
+S   Bed Slope
+B   Channel Width [m]
+n   Roughness Factor
+
+Diameter        % Passing
+Diameter        % Passing
+Diameter        % Passing
+            .
+            .
+            .
+(No more than 21 entries)

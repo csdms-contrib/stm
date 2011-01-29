@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* GravelSandTransition.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* GravelSandTransition.1 */; };
+		936A31C7101606CA00420E44 /* ReadIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A31C6101606CA00420E44 /* ReadIn.c */; };
+		936A31CE1016106F00420E44 /* SetupInitialBed.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A31CD1016106F00420E44 /* SetupInitialBed.c */; };
+		936A31D21016125800420E44 /* Initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A31D11016125800420E44 /* Initialize.c */; };
+		936A32121016213000420E44 /* SaveDatatoMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A32111016213000420E44 /* SaveDatatoMatrix.c */; };
+		936A32271016466900420E44 /* FluvialBackwater.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A32261016466900420E44 /* FluvialBackwater.c */; };
+		936A322D10164A6600420E44 /* FindSlopes.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A322C10164A6600420E44 /* FindSlopes.c */; };
+		936A323A10164EAB00420E44 /* FindLoad.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A323910164EAB00420E44 /* FindLoad.c */; };
+		936A32401016545D00420E44 /* FindMovingBoundSpeed.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A323F1016545D00420E44 /* FindMovingBoundSpeed.c */; };
+		936A3245101655B200420E44 /* FindNewEta.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A3244101655B200420E44 /* FindNewEta.c */; };
+		936A325010165BFB00420E44 /* Run.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A324F10165BFB00420E44 /* Run.c */; };
+		936A3266101660D400420E44 /* WriteOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A3265101660D400420E44 /* WriteOut.c */; };
+		936A332E1017747E00420E44 /* GetData.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A332D1017747E00420E44 /* GetData.c */; };
+		936A33311017754000420E44 /* Finalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 936A33301017754000420E44 /* Finalize.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* GravelSandTransition.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* GravelSandTransition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GravelSandTransition; sourceTree = BUILT_PRODUCTS_DIR; };
+		936A31C5101606CA00420E44 /* ReadIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIn.h; sourceTree = "<group>"; };
+		936A31C6101606CA00420E44 /* ReadIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReadIn.c; sourceTree = "<group>"; };
+		936A31CC1016106F00420E44 /* SetupInitialBed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupInitialBed.h; sourceTree = "<group>"; };
+		936A31CD1016106F00420E44 /* SetupInitialBed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetupInitialBed.c; sourceTree = "<group>"; };
+		936A31D01016125800420E44 /* Initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialize.h; sourceTree = "<group>"; };
+		936A31D11016125800420E44 /* Initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Initialize.c; sourceTree = "<group>"; };
+		936A31D81016190300420E44 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		936A320F10161B5D00420E44 /* Key for Inputs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key for Inputs.txt"; sourceTree = "<group>"; };
+		936A32101016213000420E44 /* SaveDatatoMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveDatatoMatrix.h; sourceTree = "<group>"; };
+		936A32111016213000420E44 /* SaveDatatoMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SaveDatatoMatrix.c; sourceTree = "<group>"; };
+		936A32251016466900420E44 /* FluvialBackwater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluvialBackwater.h; sourceTree = "<group>"; };
+		936A32261016466900420E44 /* FluvialBackwater.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FluvialBackwater.c; sourceTree = "<group>"; };
+		936A322B10164A6600420E44 /* FindSlopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSlopes.h; sourceTree = "<group>"; };
+		936A322C10164A6600420E44 /* FindSlopes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindSlopes.c; sourceTree = "<group>"; };
+		936A323810164EAB00420E44 /* FindLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLoad.h; sourceTree = "<group>"; };
+		936A323910164EAB00420E44 /* FindLoad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindLoad.c; sourceTree = "<group>"; };
+		936A323E1016545D00420E44 /* FindMovingBoundSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMovingBoundSpeed.h; sourceTree = "<group>"; };
+		936A323F1016545D00420E44 /* FindMovingBoundSpeed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindMovingBoundSpeed.c; sourceTree = "<group>"; };
+		936A3243101655B200420E44 /* FindNewEta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNewEta.h; sourceTree = "<group>"; };
+		936A3244101655B200420E44 /* FindNewEta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNewEta.c; sourceTree = "<group>"; };
+		936A324E10165BFB00420E44 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		936A324F10165BFB00420E44 /* Run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Run.c; sourceTree = "<group>"; };
+		936A3264101660D400420E44 /* WriteOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOut.h; sourceTree = "<group>"; };
+		936A3265101660D400420E44 /* WriteOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WriteOut.c; sourceTree = "<group>"; };
+		936A332C1017747E00420E44 /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		936A332D1017747E00420E44 /* GetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetData.c; sourceTree = "<group>"; };
+		936A332F1017754000420E44 /* Finalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finalize.h; sourceTree = "<group>"; };
+		936A33301017754000420E44 /* Finalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Finalize.c; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* GravelSandTransition.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GravelSandTransition.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* GravelSandTransition */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = GravelSandTransition;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				936A332F1017754000420E44 /* Finalize.h */,
+				936A33301017754000420E44 /* Finalize.c */,
+				936A332C1017747E00420E44 /* GetData.h */,
+				936A332D1017747E00420E44 /* GetData.c */,
+				936A3264101660D400420E44 /* WriteOut.h */,
+				936A3265101660D400420E44 /* WriteOut.c */,
+				936A3243101655B200420E44 /* FindNewEta.h */,
+				936A3244101655B200420E44 /* FindNewEta.c */,
+				936A323E1016545D00420E44 /* FindMovingBoundSpeed.h */,
+				936A323F1016545D00420E44 /* FindMovingBoundSpeed.c */,
+				936A323810164EAB00420E44 /* FindLoad.h */,
+				936A323910164EAB00420E44 /* FindLoad.c */,
+				936A324E10165BFB00420E44 /* Run.h */,
+				936A324F10165BFB00420E44 /* Run.c */,
+				936A32251016466900420E44 /* FluvialBackwater.h */,
+				936A32261016466900420E44 /* FluvialBackwater.c */,
+				936A322B10164A6600420E44 /* FindSlopes.h */,
+				936A322C10164A6600420E44 /* FindSlopes.c */,
+				936A32101016213000420E44 /* SaveDatatoMatrix.h */,
+				936A32111016213000420E44 /* SaveDatatoMatrix.c */,
+				936A31D01016125800420E44 /* Initialize.h */,
+				936A31D11016125800420E44 /* Initialize.c */,
+				936A31CC1016106F00420E44 /* SetupInitialBed.h */,
+				936A31CD1016106F00420E44 /* SetupInitialBed.c */,
+				936A31C5101606CA00420E44 /* ReadIn.h */,
+				936A31C6101606CA00420E44 /* ReadIn.c */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+				936A31D81016190300420E44 /* test.txt */,
+				936A320F10161B5D00420E44 /* Key for Inputs.txt */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* GravelSandTransition */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* GravelSandTransition.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* GravelSandTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "GravelSandTransition" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravelSandTransition;
+			productInstallPath = "$(HOME)/bin";
+			productName = GravelSandTransition;
+			productReference = 8DD76FB20486AB0100D96B5E /* GravelSandTransition */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "GravelSandTransition" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GravelSandTransition */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* GravelSandTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				936A31C7101606CA00420E44 /* ReadIn.c in Sources */,
+				936A31CE1016106F00420E44 /* SetupInitialBed.c in Sources */,
+				936A31D21016125800420E44 /* Initialize.c in Sources */,
+				936A32121016213000420E44 /* SaveDatatoMatrix.c in Sources */,
+				936A32271016466900420E44 /* FluvialBackwater.c in Sources */,
+				936A322D10164A6600420E44 /* FindSlopes.c in Sources */,
+				936A323A10164EAB00420E44 /* FindLoad.c in Sources */,
+				936A32401016545D00420E44 /* FindMovingBoundSpeed.c in Sources */,
+				936A3245101655B200420E44 /* FindNewEta.c in Sources */,
+				936A325010165BFB00420E44 /* Run.c in Sources */,
+				936A3266101660D400420E44 /* WriteOut.c in Sources */,
+				936A332E1017747E00420E44 /* GetData.c in Sources */,
+				936A33311017754000420E44 /* Finalize.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = GravelSandTransition;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = GravelSandTransition;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "GravelSandTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "GravelSandTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

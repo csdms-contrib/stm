@@ -1,0 +1,17 @@
+Q   Flow discharge [m^3/s]
+I   Flood intermittency
+B   Channel width [m]
+d   Median grain size (sand) [mm]
+D   Grain size such that 90% is finer (sand) [mm]
+R   Submerged Specific Gravity of Sediment
+S   Bed slope
+L   Reach length [m]
+H   Depth of dredge slot [m]
+u   Fraction of reach length defining upstream end of dredge slot
+r   Fraction of reach length defining downstream end of dredge slot
+l   Bed porosity
+a   Upwinding coefficient (1 = full upwinding)
+M   Number of spatial steps desired (no more than 2000)
+t   Time step [year]
+i   Number of iterations per print statement
+p   Number of prints desired

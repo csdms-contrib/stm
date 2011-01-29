@@ -1,0 +1,4 @@
+v   kinematic viscosity of water [m^2/s]
+R   submerged specific gravity of sediment
+D   grain size [mm]
+g   acceleration due to gravity [m/s^2]

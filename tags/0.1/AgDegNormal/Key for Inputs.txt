@@ -1,0 +1,21 @@
+Q   Flood discharge [m^3/s]
+I   Intermittency
+B   Channel Width [m]
+D   Grain Size [mm]
+l   Bed Porosity
+k   Roughness height [mm]
+S   Ambient Bed Slope
+G   Imposed Annual Sediment Transfer Rate from Upstream [tons/annum]
+L   Length of Reach [m]
+t   Time Step [year]
+i   Number of Time Steps per Printout
+p   Number of Printouts desired
+M   Intervals
+u   Upwinding Coefficient [1=full upwind, 0.5=central difference]
+r   Coefficient in Manning-Strickler Resistance Relation
+a   Coefficient in Sediment Transport Relation
+n   Exponent in Sediment Transport Relation
+T   Critical Shields Stress
+P   Fraction of Bed Shear Stress that is a Skin Friction
+R   Submerged Specific Gravity of Sediment
+C   Coefficient, Cf, for Chezy formulation

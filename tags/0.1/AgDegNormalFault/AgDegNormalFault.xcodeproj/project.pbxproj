@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* AgDegNormalFault.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* AgDegNormalFault.1 */; };
+		9328854A0FFD12B900007E1D /* Initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = 932885490FFD12B900007E1D /* Initialize.c */; };
+		9328854D0FFD15C200007E1D /* Run.c in Sources */ = {isa = PBXBuildFile; fileRef = 9328854C0FFD15C200007E1D /* Run.c */; };
+		932885770FFD181200007E1D /* Finalize.c in Sources */ = {isa = PBXBuildFile; fileRef = 932885760FFD181200007E1D /* Finalize.c */; };
+		9344C54B0FDEB9A400BE654D /* AmbientEquilibria.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C54A0FDEB9A400BE654D /* AmbientEquilibria.c */; };
+		9344C5540FDEBC6000BE654D /* UltimateEquilibria.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C5530FDEBC6000BE654D /* UltimateEquilibria.c */; };
+		9344C5600FDEBE4500BE654D /* PrepTimeLoop.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C55F0FDEBE4500BE654D /* PrepTimeLoop.c */; };
+		9344C5710FDEC00F00BE654D /* PrintDatatoFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C5700FDEC00F00BE654D /* PrintDatatoFile.c */; };
+		9344C5900FDEC1CC00BE654D /* FindSlopes.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C58F0FDEC1CC00BE654D /* FindSlopes.c */; };
+		9344C5940FDEC22600BE654D /* FindDepthShear.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C5930FDEC22600BE654D /* FindDepthShear.c */; };
+		9344C5990FDEC30E00BE654D /* FindLoad.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C5980FDEC30E00BE654D /* FindLoad.c */; };
+		9344C59C0FDEC35C00BE654D /* FindNewEta.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C59B0FDEC35C00BE654D /* FindNewEta.c */; };
+		9344C5C20FDEC6EB00BE654D /* WriteOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C5C10FDEC6EB00BE654D /* WriteOut.c */; };
+		9344C5D90FDECC9D00BE654D /* FaultBed.c in Sources */ = {isa = PBXBuildFile; fileRef = 9344C5D80FDECC9D00BE654D /* FaultBed.c */; };
+		935A231F0FDDCB150060A2FC /* ReadIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 935A231E0FDDCB150060A2FC /* ReadIn.c */; };
+		93CC26E90FFBE04F001F3ED3 /* SaveDatatoMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 93CC26E80FFBE04F001F3ED3 /* SaveDatatoMatrix.c */; };
+		93CC27090FFBE2BD001F3ED3 /* GetData.c in Sources */ = {isa = PBXBuildFile; fileRef = 93CC27080FFBE2BD001F3ED3 /* GetData.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* AgDegNormalFault.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* AgDegNormalFault */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AgDegNormalFault; sourceTree = BUILT_PRODUCTS_DIR; };
+		932885480FFD12B900007E1D /* Initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialize.h; sourceTree = "<group>"; };
+		932885490FFD12B900007E1D /* Initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Initialize.c; sourceTree = "<group>"; };
+		9328854B0FFD15C200007E1D /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		9328854C0FFD15C200007E1D /* Run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Run.c; sourceTree = "<group>"; };
+		932885750FFD181200007E1D /* Finalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finalize.h; sourceTree = "<group>"; };
+		932885760FFD181200007E1D /* Finalize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Finalize.c; sourceTree = "<group>"; };
+		9344C5490FDEB9A400BE654D /* AmbientEquilibria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmbientEquilibria.h; sourceTree = "<group>"; };
+		9344C54A0FDEB9A400BE654D /* AmbientEquilibria.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AmbientEquilibria.c; sourceTree = "<group>"; };
+		9344C5520FDEBC6000BE654D /* UltimateEquilibria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UltimateEquilibria.h; sourceTree = "<group>"; };
+		9344C5530FDEBC6000BE654D /* UltimateEquilibria.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UltimateEquilibria.c; sourceTree = "<group>"; };
+		9344C55E0FDEBE4500BE654D /* PrepTimeLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepTimeLoop.h; sourceTree = "<group>"; };
+		9344C55F0FDEBE4500BE654D /* PrepTimeLoop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrepTimeLoop.c; sourceTree = "<group>"; };
+		9344C56F0FDEC00F00BE654D /* PrintDatatoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintDatatoFile.h; sourceTree = "<group>"; };
+		9344C5700FDEC00F00BE654D /* PrintDatatoFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintDatatoFile.c; sourceTree = "<group>"; };
+		9344C58E0FDEC1CC00BE654D /* FindSlopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSlopes.h; sourceTree = "<group>"; };
+		9344C58F0FDEC1CC00BE654D /* FindSlopes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindSlopes.c; sourceTree = "<group>"; };
+		9344C5920FDEC22600BE654D /* FindDepthShear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindDepthShear.h; sourceTree = "<group>"; };
+		9344C5930FDEC22600BE654D /* FindDepthShear.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindDepthShear.c; sourceTree = "<group>"; };
+		9344C5970FDEC30E00BE654D /* FindLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLoad.h; sourceTree = "<group>"; };
+		9344C5980FDEC30E00BE654D /* FindLoad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindLoad.c; sourceTree = "<group>"; };
+		9344C59A0FDEC35C00BE654D /* FindNewEta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNewEta.h; sourceTree = "<group>"; };
+		9344C59B0FDEC35C00BE654D /* FindNewEta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindNewEta.c; sourceTree = "<group>"; };
+		9344C5C00FDEC6EB00BE654D /* WriteOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOut.h; sourceTree = "<group>"; };
+		9344C5C10FDEC6EB00BE654D /* WriteOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WriteOut.c; sourceTree = "<group>"; };
+		9344C5D70FDECC9D00BE654D /* FaultBed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaultBed.h; sourceTree = "<group>"; };
+		9344C5D80FDECC9D00BE654D /* FaultBed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FaultBed.c; sourceTree = "<group>"; };
+		9344C5DA0FDED09500BE654D /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		935A231D0FDDCB150060A2FC /* ReadIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIn.h; sourceTree = "<group>"; };
+		935A231E0FDDCB150060A2FC /* ReadIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReadIn.c; sourceTree = "<group>"; };
+		935A23210FDDCCCA0060A2FC /* Key for Inputs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key for Inputs"; sourceTree = "<group>"; };
+		93CC26E70FFBE04F001F3ED3 /* SaveDatatoMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveDatatoMatrix.h; sourceTree = "<group>"; };
+		93CC26E80FFBE04F001F3ED3 /* SaveDatatoMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SaveDatatoMatrix.c; sourceTree = "<group>"; };
+		93CC27070FFBE2BD001F3ED3 /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		93CC27080FFBE2BD001F3ED3 /* GetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetData.c; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* AgDegNormalFault.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AgDegNormalFault.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* AgDegNormalFault */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = AgDegNormalFault;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				932885750FFD181200007E1D /* Finalize.h */,
+				932885760FFD181200007E1D /* Finalize.c */,
+				9328854B0FFD15C200007E1D /* Run.h */,
+				9328854C0FFD15C200007E1D /* Run.c */,
+				932885480FFD12B900007E1D /* Initialize.h */,
+				932885490FFD12B900007E1D /* Initialize.c */,
+				93CC27070FFBE2BD001F3ED3 /* GetData.h */,
+				93CC27080FFBE2BD001F3ED3 /* GetData.c */,
+				93CC26E70FFBE04F001F3ED3 /* SaveDatatoMatrix.h */,
+				93CC26E80FFBE04F001F3ED3 /* SaveDatatoMatrix.c */,
+				9344C5DA0FDED09500BE654D /* test.txt */,
+				9344C5D70FDECC9D00BE654D /* FaultBed.h */,
+				9344C5D80FDECC9D00BE654D /* FaultBed.c */,
+				9344C5C00FDEC6EB00BE654D /* WriteOut.h */,
+				9344C5C10FDEC6EB00BE654D /* WriteOut.c */,
+				9344C59A0FDEC35C00BE654D /* FindNewEta.h */,
+				9344C59B0FDEC35C00BE654D /* FindNewEta.c */,
+				9344C5970FDEC30E00BE654D /* FindLoad.h */,
+				9344C5980FDEC30E00BE654D /* FindLoad.c */,
+				9344C5920FDEC22600BE654D /* FindDepthShear.h */,
+				9344C5930FDEC22600BE654D /* FindDepthShear.c */,
+				9344C58E0FDEC1CC00BE654D /* FindSlopes.h */,
+				9344C58F0FDEC1CC00BE654D /* FindSlopes.c */,
+				9344C56F0FDEC00F00BE654D /* PrintDatatoFile.h */,
+				9344C5700FDEC00F00BE654D /* PrintDatatoFile.c */,
+				9344C55E0FDEBE4500BE654D /* PrepTimeLoop.h */,
+				9344C55F0FDEBE4500BE654D /* PrepTimeLoop.c */,
+				9344C5520FDEBC6000BE654D /* UltimateEquilibria.h */,
+				9344C5530FDEBC6000BE654D /* UltimateEquilibria.c */,
+				9344C5490FDEB9A400BE654D /* AmbientEquilibria.h */,
+				9344C54A0FDEB9A400BE654D /* AmbientEquilibria.c */,
+				935A23210FDDCCCA0060A2FC /* Key for Inputs */,
+				935A231D0FDDCB150060A2FC /* ReadIn.h */,
+				935A231E0FDDCB150060A2FC /* ReadIn.c */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* AgDegNormalFault */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* AgDegNormalFault.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* AgDegNormalFault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AgDegNormalFault" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgDegNormalFault;
+			productInstallPath = "$(HOME)/bin";
+			productName = AgDegNormalFault;
+			productReference = 8DD76FB20486AB0100D96B5E /* AgDegNormalFault */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AgDegNormalFault" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* AgDegNormalFault */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* AgDegNormalFault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				935A231F0FDDCB150060A2FC /* ReadIn.c in Sources */,
+				9344C54B0FDEB9A400BE654D /* AmbientEquilibria.c in Sources */,
+				9344C5540FDEBC6000BE654D /* UltimateEquilibria.c in Sources */,
+				9344C5600FDEBE4500BE654D /* PrepTimeLoop.c in Sources */,
+				9344C5710FDEC00F00BE654D /* PrintDatatoFile.c in Sources */,
+				9344C5900FDEC1CC00BE654D /* FindSlopes.c in Sources */,
+				9344C5940FDEC22600BE654D /* FindDepthShear.c in Sources */,
+				9344C5990FDEC30E00BE654D /* FindLoad.c in Sources */,
+				9344C59C0FDEC35C00BE654D /* FindNewEta.c in Sources */,
+				9344C5C20FDEC6EB00BE654D /* WriteOut.c in Sources */,
+				9344C5D90FDECC9D00BE654D /* FaultBed.c in Sources */,
+				93CC26E90FFBE04F001F3ED3 /* SaveDatatoMatrix.c in Sources */,
+				93CC27090FFBE2BD001F3ED3 /* GetData.c in Sources */,
+				9328854A0FFD12B900007E1D /* Initialize.c in Sources */,
+				9328854D0FFD15C200007E1D /* Run.c in Sources */,
+				932885770FFD181200007E1D /* Finalize.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AgDegNormalFault;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AgDegNormalFault;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AgDegNormalFault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AgDegNormalFault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

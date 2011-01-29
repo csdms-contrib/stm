@@ -1,0 +1,4 @@
+b   the non-dimensional distance from the bed
+    where c=cb
+v   vs settling velocity [cm/s]
+u   u* shear velocity [m/s]
